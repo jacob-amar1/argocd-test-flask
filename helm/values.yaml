@@ -1,0 +1,14 @@
+image:
+  repository: python-flask
+  tag: "test"
+
+service:
+  type: ClusterIP
+  port: 5000
+
+ingress:
+  annotations: {}
+    # kubernetes.io/ingress.class: nginx
+    # kubernetes.io/tls-acme: "true"
+  host: chart-example.local
+  path: /
