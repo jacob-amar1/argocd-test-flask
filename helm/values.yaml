@@ -1,6 +1,6 @@
 image:
-  repository: python-flask
-  tag: "test"
+  repository: jacobamar1/flaskdemo
+  tag: "latest"
 
 service:
   type: ClusterIP
